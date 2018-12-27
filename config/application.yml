@@ -1,0 +1,17 @@
+# spring boot 配置
+spring:
+#  banner:
+#    image:
+#      location: classpath:static/img/logo.png
+  main:
+    banner-mode: "off"
+  profiles:
+    active: local
+  # 自定义前端静态文件位置
+  resources:
+    static-locations: file:webapp/
+
+search:
+  cse:
+    key: "AIzaSyDrW1N3EWt8XTZ2cfYe4xPOaBPNn6Csxiw"
+    cx: "002600470224700499886:3jhn6sxtfsw"
